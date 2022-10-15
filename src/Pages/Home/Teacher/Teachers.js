@@ -20,7 +20,7 @@ const Teachers = ({ teachers }) => {
             </h1>
             <p className="text-sm font-semibold">{experience} experience</p>
             <p className=" text-sm text-purple-500 font-semibold">
-              hourly fees ${fees}
+              Hourly fees ${fees}
             </p>
             <div className="rating rating-sm rating-half pr-6">
               <input type="radio" name="rating-10" className="rating-hidden" />
@@ -82,7 +82,7 @@ const Teachers = ({ teachers }) => {
                 htmlFor="review-modal"
                 className=" btn btn-outline btn-primary rounded-full btn-sm"
               >
-                open modal
+                Reviews
               </label>
             </button>
           </div>
