@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Review from "./Review";
 import Teachers from "./Teachers";
 
 const Teacher = () => {
@@ -21,6 +22,7 @@ const Teacher = () => {
           <Teachers key={teacher._id} teachers={teachers}></Teachers>
         ))}
       </div>
+      {<Review></Review>}
     </div>
   );
 };

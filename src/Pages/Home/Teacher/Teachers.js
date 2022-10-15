@@ -77,8 +77,13 @@ const Teachers = ({ teachers }) => {
               />
               <p className="pl-2 text-sm font-bold">4.5</p>
             </div>
-            <button className="flex btn btn-outline btn-primary rounded-full btn-sm">
-              <p>Reviews</p>
+            <button className="flex">
+              <label
+                htmlFor="review-modal"
+                className=" btn btn-outline btn-primary rounded-full btn-sm"
+              >
+                open modal
+              </label>
             </button>
           </div>
           <div className=" pl-28">
