@@ -3,10 +3,10 @@ import React from "react";
 const Teachers = ({ teachers }) => {
   const { name, img, post, exprieance, fees } = teachers;
   return (
-    <div className="card card-side  bg-base-100 shadow-xl">
+    <div className="card card-side  bg-base-100 divide-y divide-dashed">
       <figure>
-        <div className="avatar">
-          <div className="w-24 h-20 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+        <div className="avatar p-2">
+          <div className="w-24 h-fit rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
             <img src="https://placeimg.com/192/192/people" />
           </div>
         </div>
