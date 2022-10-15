@@ -3,69 +3,88 @@ import React from "react";
 const Teachers = ({ teachers }) => {
   const { name, img, post, experience, fees } = teachers;
   return (
-    <div className="card card-side   bg-base-100 divide-y divide-dashed ">
-      <div className="flex">
-        {" "}
-        <figure>
-          <div className="avatar p-2">
-            <div className="w-24 h-fit rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-              <img src={img} alt="" />
+    <div className="">
+      <div className="hero w-fit ">
+        <div className="hero-content flex-col lg:flex-row ">
+          <div className="avatar">
+            <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+              <img src={img} />
             </div>
           </div>
-        </figure>
-        <div className="card-body p-2">
-          <h2 className=" text-md font-bold">
-            {name}{" "}
-            <span className="text-sm font-semibold text-purple-500">
-              {post}
-            </span>
-          </h2>
-
-          <p>{experience}</p>
-          <p className="text-purple-500"> Hourly fees: &{fees}</p>
-          <div className="flex">
-            <div className="rating rating-sm">
+          <div>
+            <h1 className="text-xl font-bold">
+              {name}{" "}
+              <span className="text-sm text-purple-500 font-semibold">
+                {post}
+              </span>
+            </h1>
+            <p className="text-sm font-semibold">{experience} experience</p>
+            <p className=" text-sm text-purple-500 font-semibold">
+              hourly fees ${fees}
+            </p>
+            <div className="rating rating-sm rating-half pr-6">
+              <input type="radio" name="rating-10" className="rating-hidden" />
               <input
                 type="radio"
-                name="rating-6"
-                className="mask mask-star-2 bg-purple-500"
+                name="rating-10"
+                className="bg-purple-500 mask mask-star-2 mask-half-1"
               />
               <input
                 type="radio"
-                name="rating-6"
-                className="mask mask-star-2 bg-purple-500"
+                name="rating-10"
+                className="bg-purple-500 mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-purple-500 mask mask-star-2 mask-half-1"
                 checked
               />
               <input
                 type="radio"
-                name="rating-6"
-                className="mask mask-star-2 bg-purple-500"
+                name="rating-10"
+                className="bg-purple-500 mask mask-star-2 mask-half-2"
               />
               <input
                 type="radio"
-                name="rating-6"
-                className="mask mask-star-2 bg-purple-500"
+                name="rating-10"
+                className="bg-purple-500 mask mask-star-2 mask-half-1"
               />
               <input
                 type="radio"
-                name="rating-6"
-                className="mask mask-star-2 bg-purple-500"
+                name="rating-10"
+                className="bg-purple-500 mask mask-star-2 mask-half-2"
               />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-purple-500 mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-purple-500 mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-purple-500 mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-purple-500 mask mask-star-2 mask-half-2"
+              />
+              <p className="pl-2 text-sm font-bold">4.5</p>
             </div>
-            <div>
-              <h1 className="">4.5</h1>
-            </div>
+            <button className="flex btn btn-outline btn-primary rounded-full btn-sm">
+              <p>Reviews</p>
+            </button>
           </div>
-        </div>
-      </div>
-      <div className="card-actions justify-end align-middle  ">
-        <div className="collapse">
-          <input type="checkbox" />
-          <button className=" collapse-title badge badge-primary badge-outline">
-            Read More
-          </button>
-          <div className="collapse-content">
-            <p>hello</p>
+          <div className=" pl-28">
+            <button className="btn btn-outline btn-primary rounded-full  btn-sm ">
+              Read More
+            </button>
           </div>
         </div>
       </div>
