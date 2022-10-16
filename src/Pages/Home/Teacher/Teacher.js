@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
+
 import Review from "./Review";
 import Teachers from "./Teachers";
 
 const Teacher = () => {
   const [teacher, setTeacher] = useState([]);
+
   useEffect(() => {
     fetch("teacher.json")
       .then((res) => res.json())
@@ -22,6 +24,7 @@ const Teacher = () => {
           <Teachers key={teacher._id} teachers={teachers}></Teachers>
         ))}
       </div>
+
       {<Review></Review>}
     </div>
   );

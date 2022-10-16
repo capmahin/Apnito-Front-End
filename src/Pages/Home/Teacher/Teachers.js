@@ -4,7 +4,7 @@ const Teachers = ({ teachers }) => {
   const { name, img, post, experience, fees } = teachers;
   return (
     <div className="">
-      <div className=" w-full hero shadow ">
+      <div className=" pl-60 w-fit hero shadow ">
         <div className="hero-content flex-col lg:flex-row ">
           <div className="avatar">
             <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
@@ -87,17 +87,32 @@ const Teachers = ({ teachers }) => {
             </button>
           </div>
           <div className=" pl-32">
-            <div className="dropdown dropdown-end">
-              <label
-                tabIndex={0}
-                className="btn m-1  btn-outline btn-primary rounded-full btn-sm"
-              >
+            <div className="collapse">
+              <input type="checkbox" />
+              <button className="collapse-title btn btn-outline w-40 btn-primary rounded-full btn-sm py-2">
                 Read More
-              </label>
-              <ul
-                tabIndex={0}
-                className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
-              ></ul>
+              </button>
+              <div className="collapse-content">
+                <div>
+                  <div className="hero min-h-screen bg-base-200">
+                    <div className="hero-content flex-col lg:flex-row">
+                      <img
+                        src="https://placeimg.com/260/400/arch"
+                        className="max-w-sm rounded-lg shadow-2xl"
+                      />
+                      <div>
+                        <h1 className="text-5xl font-bold">Box Office News!</h1>
+                        <p className="py-6">
+                          Provident cupiditate voluptatem et in. Quaerat fugiat
+                          ut assumenda excepturi exercitationem quasi. In
+                          deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                        <button className="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
