@@ -81,7 +81,7 @@ const Teachers = ({ teachers }) => {
             <button className="flex">
               <label
                 htmlFor="review-modal"
-                className=" btn btn-outline btn-primary rounded-full btn-sm"
+                className=" btn  rounded-full btn-sm"
               >
                 Reviews
               </label>
@@ -179,7 +179,7 @@ const Teachers = ({ teachers }) => {
                           <button className="flex">
                             <label
                               htmlFor="review-modal"
-                              className=" btn btn-outline btn-primary rounded-full btn-sm"
+                              className=" btn  rounded-full btn-sm"
                             >
                               Reviews
                             </label>
