@@ -196,7 +196,94 @@ const Teachers = ({ teachers }) => {
                         </div>
                       </div>
                     </div>
-                    <div className=""></div>
+                    <div className="">
+                      <div className="hero  ">
+                        <div className="hero-content flex-col lg:flex-row-reverse">
+                          <div>
+                            <h1 className="text-2xl font-bold">
+                              {name}
+                              <span className="text-sm pl-2 text-purple-500 font-semibold">
+                                {post}
+                              </span>
+                              <span className="text-sm font-semibold pl-2">
+                                {" "}
+                                {experience} experience
+                              </span>
+                              <span>
+                                <div className="rating rating-sm rating-half pr-6">
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="rating-hidden"
+                                  />
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                                  />
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                                  />
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                                    checked
+                                  />
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                                  />
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                                  />
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                                  />
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                                  />
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                                  />
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                                  />
+                                  <input
+                                    type="radio"
+                                    name="rating-10"
+                                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                                  />
+                                  <p className="pl-2 text-sm font-bold">4.5</p>
+                                </div>
+                              </span>
+                            </h1>
+                            <p className="py-6">
+                              Provident cupiditate voluptatem et in. Quaerat
+                              fugiat ut assumenda excepturi exercitationem
+                              quasi. In deleniti eaque aut repudiandae et a id
+                              nisi.
+                            </p>
+                            <button className="btn btn-primary">
+                              Get Started
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
