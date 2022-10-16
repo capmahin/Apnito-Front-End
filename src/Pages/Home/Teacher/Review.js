@@ -1,4 +1,5 @@
 import React from "react";
+import { FaThumbsUp, FaThumbsDown, FaFlag } from "react-icons/fa";
 
 const Review = () => {
   return (
@@ -41,8 +42,20 @@ const Review = () => {
               Anushika Sharma born 1 May 1988 is an indian actress and producer
               who works in Hindi films
             </p>
-            <div className="pt-2">
+            <div className="pt-2 flex">
               <button className="btn   rounded-full  btn-sm  ">Reply</button>
+              <p className=" pl-2 pt-2">
+                <FaThumbsUp />
+              </p>
+              <p className="pl-1 pt-1">178 .</p>
+              <p className=" pl-2 pt-3">
+                <FaThumbsDown />
+              </p>
+              <p className="pl-1 pt-1">178 .</p>
+              <p className=" pl-2 pt-2">
+                <FaFlag />
+              </p>
+              <p className="pl-1 pt-1">Flag in appearance.</p>
             </div>
             <div className="hero w-fit">
               <div className="hero-content flex-col lg:flex-row">
@@ -59,8 +72,19 @@ const Review = () => {
               <p className="text-sm font-semibold">
                 Indian actress and producer who works in Hindi films
               </p>
-              <div className="pt-2">
+              <div className="pt-2 flex">
                 <button className="btn   rounded-full  btn-sm  ">Reply</button>
+                <p className=" pl-2 pt-2">
+                  <FaThumbsUp />
+                </p>
+                <p className="pl-1 pt-1">178 .</p>
+                <p className=" pl-2 pt-3">
+                  <FaThumbsDown />
+                </p>
+                <p className="pl-1 pt-1">178 .</p>
+                <p className=" pl-2 pt-2">
+                  <FaFlag />
+                </p>
               </div>
             </div>
           </div>
@@ -80,8 +104,19 @@ const Review = () => {
               It is unfortunate while a majority of medical feternity spend time
               in treating the Covid patuents. a few are busy in scaring people.
             </p>
-            <div className="pt-2">
+            <div className="pt-2 flex">
               <button className="btn   rounded-full  btn-sm  ">Reply</button>
+              <p className=" pl-2 pt-2">
+                <FaThumbsUp />
+              </p>
+              <p className="pl-1 pt-1">178 .</p>
+              <p className=" pl-2 pt-3">
+                <FaThumbsDown />
+              </p>
+              <p className="pl-1 pt-1">178 .</p>
+              <p className=" pl-2 pt-2">
+                <FaFlag />
+              </p>
             </div>
           </div>
           <div className="hero w-fit">
@@ -100,8 +135,19 @@ const Review = () => {
               Everyday once scary news. i think we all humans need to live in
               fear our last breath.
             </p>
-            <div className="pt-2">
+            <div className="pt-2 flex">
               <button className="btn   rounded-full  btn-sm  ">Reply</button>
+              <p className=" pl-2 pt-2">
+                <FaThumbsUp />
+              </p>
+              <p className="pl-1 pt-1">178 .</p>
+              <p className=" pl-2 pt-3">
+                <FaThumbsDown />
+              </p>
+              <p className="pl-1 pt-1">178 .</p>
+              <p className=" pl-2 pt-2">
+                <FaFlag />
+              </p>
             </div>
           </div>
           <div className="hero w-fit">
@@ -123,8 +169,19 @@ const Review = () => {
               not news but scare.it was present for decodes.but now getting
               linked Who benefits? Certainly not common man.
             </p>
-            <div className="pt-2">
+            <div className="pt-2 flex">
               <button className="btn   rounded-full  btn-sm  ">Reply</button>
+              <p className=" pl-2 pt-2">
+                <FaThumbsUp />
+              </p>
+              <p className="pl-1 pt-1">178 .</p>
+              <p className=" pl-2 pt-3">
+                <FaThumbsDown />
+              </p>
+              <p className="pl-1 pt-1">178 .</p>
+              <p className=" pl-2 pt-2">
+                <FaFlag />
+              </p>
             </div>
           </div>
         </div>
