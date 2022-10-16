@@ -1,7 +1,8 @@
 import React from "react";
+import ReactPlayer from "react-player";
 
 const Teachers = ({ teachers }) => {
-  const { name, img, post, experience, fees } = teachers;
+  const { name, img, post, experience, fees, video } = teachers;
   return (
     <div className="">
       <div className=" pl-60 w-fit hero shadow ">
@@ -102,19 +103,100 @@ const Teachers = ({ teachers }) => {
                             <img src={img} />
                           </div>
                         </div>
-                        <div>
-                          <h1 className="text-xl font-bold">{name}</h1>
-                          <p className="py-6">
-                            Provident cupiditate voluptatem et in. Quaerat
-                            fugiat ut assumenda excepturi exercitationem quasi.
-                            In deleniti eaque aut repudiandae et a id nisi.
+                        <div className="pb-20">
+                          <h1 className="text-xl font-bold">
+                            {name}{" "}
+                            <span className="text-sm text-purple-500 font-semibold">
+                              {post}
+                            </span>
+                          </h1>
+                          <p className="text-sm font-semibold">
+                            {experience} experience
                           </p>
-                          <button className="btn btn-primary">
-                            Get Started
+                          <p className=" text-sm text-purple-500 font-semibold">
+                            Hourly fees ${fees}
+                          </p>
+                          <div className="rating rating-sm rating-half pr-6">
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="rating-hidden"
+                            />
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="bg-purple-500 mask mask-star-2 mask-half-1"
+                            />
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="bg-purple-500 mask mask-star-2 mask-half-2"
+                            />
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="bg-purple-500 mask mask-star-2 mask-half-1"
+                              checked
+                            />
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="bg-purple-500 mask mask-star-2 mask-half-2"
+                            />
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="bg-purple-500 mask mask-star-2 mask-half-1"
+                            />
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="bg-purple-500 mask mask-star-2 mask-half-2"
+                            />
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="bg-purple-500 mask mask-star-2 mask-half-1"
+                            />
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="bg-purple-500 mask mask-star-2 mask-half-2"
+                            />
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="bg-purple-500 mask mask-star-2 mask-half-1"
+                            />
+                            <input
+                              type="radio"
+                              name="rating-10"
+                              className="bg-purple-500 mask mask-star-2 mask-half-2"
+                            />
+                            <p className="pl-2 text-sm font-bold">4.5</p>
+                          </div>
+
+                          <button className="flex">
+                            <label
+                              htmlFor="review-modal"
+                              className=" btn btn-outline btn-primary rounded-full btn-sm"
+                            >
+                              Reviews
+                            </label>
                           </button>
+                        </div>
+                        <div className="pb-20">
+                          <div className="card card-compact    w-40 h-36 shadow-xl">
+                            <div className="card-body">
+                              <figure>
+                                <ReactPlayer url={video} />
+                              </figure>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
+                    <div className=""></div>
                   </div>
                 </div>
               </div>
