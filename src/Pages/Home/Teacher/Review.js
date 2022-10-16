@@ -13,14 +13,28 @@ const Review = () => {
             X
           </label>
           <h3 className="font-bold text-lg">Comments(8)</h3>
-          <p className="py-4">
-            You've been selected for a chance to get one year of subscription to
-            use Wikipedia for free!
-          </p>
-          <div className="modal-action">
-            <label htmlFor="review-modal" className="btn">
-              Yay!
-            </label>
+          <div className="flex pl-6">
+            <div className=" ">
+              <input
+                type="text"
+                placeholder="Testing"
+                className="input input-bordered input-sm w-96 max-w-xs "
+              />
+            </div>
+            <div className=" pl-2">
+              <button className="btn btn-sm ">Submit</button>
+            </div>
+          </div>
+          <div className="hero w-fit">
+            <div className="hero-content flex-col lg:flex-row">
+              <div className="avatar">
+                <div className="w-10 rounded-full  ">
+                  <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" />
+                </div>
+                <h1 className="text-sm font-bold">Gourang Chohan.</h1>
+                <span className="pl-2 text-sm ">3 days ago</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
