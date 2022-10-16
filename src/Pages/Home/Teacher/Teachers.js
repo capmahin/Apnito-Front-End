@@ -87,9 +87,18 @@ const Teachers = ({ teachers }) => {
             </button>
           </div>
           <div className=" pl-28">
-            <button className="btn btn-outline btn-primary rounded-full  btn-sm ">
-              Read More
-            </button>
+            <div className="dropdown dropdown-end">
+              <label
+                tabIndex={0}
+                className="btn m-1  btn-outline btn-primary rounded-full btn-sm"
+              >
+                Read More
+              </label>
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+              ></ul>
+            </div>
           </div>
         </div>
       </div>
