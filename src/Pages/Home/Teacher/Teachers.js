@@ -4,7 +4,7 @@ const Teachers = ({ teachers }) => {
   const { name, img, post, experience, fees } = teachers;
   return (
     <div className="">
-      <div className="hero w-fit ">
+      <div className=" w-full hero shadow ">
         <div className="hero-content flex-col lg:flex-row ">
           <div className="avatar">
             <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
@@ -86,7 +86,7 @@ const Teachers = ({ teachers }) => {
               </label>
             </button>
           </div>
-          <div className=" pl-28">
+          <div className=" pl-32">
             <div className="dropdown dropdown-end">
               <label
                 tabIndex={0}
