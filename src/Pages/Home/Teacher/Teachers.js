@@ -6,7 +6,7 @@ const Teachers = ({ teachers }) => {
     <div className="">
       <div className=" pl-60 w-fit hero shadow ">
         <div className="hero-content flex-col lg:flex-row ">
-          <div className="avatar">
+          <div className="avatar pb-12">
             <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
               <img src={img} />
             </div>
@@ -94,20 +94,25 @@ const Teachers = ({ teachers }) => {
               </button>
               <div className="collapse-content">
                 <div>
-                  <div className="hero min-h-screen bg-base-200">
-                    <div className="hero-content flex-col lg:flex-row">
-                      <img
-                        src="https://placeimg.com/260/400/arch"
-                        className="max-w-sm rounded-lg shadow-2xl"
-                      />
-                      <div>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
-                        <p className="py-6">
-                          Provident cupiditate voluptatem et in. Quaerat fugiat
-                          ut assumenda excepturi exercitationem quasi. In
-                          deleniti eaque aut repudiandae et a id nisi.
-                        </p>
-                        <button className="btn btn-primary">Get Started</button>
+                  <div>
+                    <div className="w-fit hero shadow">
+                      <div className="hero-content flex-col lg:flex-row">
+                        <div className="avatar pb-24">
+                          <div className="w-24  rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                            <img src={img} />
+                          </div>
+                        </div>
+                        <div>
+                          <h1 className="text-xl font-bold">{name}</h1>
+                          <p className="py-6">
+                            Provident cupiditate voluptatem et in. Quaerat
+                            fugiat ut assumenda excepturi exercitationem quasi.
+                            In deleniti eaque aut repudiandae et a id nisi.
+                          </p>
+                          <button className="btn btn-primary">
+                            Get Started
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
