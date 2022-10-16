@@ -31,9 +31,18 @@ const Review = () => {
                 <div className="w-10 rounded-full  ">
                   <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" />
                 </div>
-                <h1 className="text-sm font-bold">Gourang Chohan.</h1>
+                <h1 className="text-sm font-bold pl-2">Gourang Chohan.</h1>
                 <span className="pl-2 text-sm ">3 days ago</span>
               </div>
+            </div>
+          </div>
+          <div className="pl-14 ">
+            <p className="text-sm font-semibold">
+              Anushika Sharma born 1 May 1988 is an indian actress and producer
+              who works in Hindi films
+            </p>
+            <div className="pt-2">
+              <button className="btn   rounded-full  btn-sm  ">Reply</button>
             </div>
           </div>
         </div>
