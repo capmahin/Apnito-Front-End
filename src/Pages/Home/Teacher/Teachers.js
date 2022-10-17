@@ -5,7 +5,7 @@ const Teachers = ({ teachers }) => {
   const { name, img, post, experience, fees, video, address } = teachers;
   return (
     <div className="">
-      <div className=" pl-60 w-fill hero shadow ">
+      <div className=" pl-60 w-fit hero shadow ">
         <div className="hero-content flex-col lg:flex-row ">
           <div className="avatar pb-12">
             <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
