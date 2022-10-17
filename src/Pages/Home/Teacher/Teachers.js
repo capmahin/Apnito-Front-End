@@ -123,7 +123,7 @@ const Teachers = ({ teachers }) => {
                   <div>
                     <div className="w-fit hero shadow">
                       {/* upper starts */}
-                      <div className="hero-content flex-col lg:flex-row">
+                      <div className="hero-content w-fit flex-col lg:flex-row">
                         <div className="avatar pb-24">
                           <div className="w-24  rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                             <img src={img} />
@@ -211,7 +211,7 @@ const Teachers = ({ teachers }) => {
                             </label>
                           </button>
                         </div>
-                        <div className="pb-20">
+                        <div className="pb-20 pl-96 ">
                           <div className="card card-compact    w-40 h-36 shadow-xl">
                             <div className="card-body">
                               <figure>
