@@ -20,10 +20,12 @@ const Teacher = () => {
             Music Teacher
           </h3>
         </div>
-        <div className="justify-end items-end px-10">
-          <button className="btn btn-info ">vocal</button>
+        <div className="card-actions justify-start pr-8 pl-8">
+          <button className="btn rounded-full btn-primary text-white">
+            vocal
+          </button>
 
-          <button className="btn btn-info  ">Instrumental</button>
+          <button className="btn rounded-full  ">Instrumental</button>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 justify-items-center gap-3 pt-6 px-5 py-5 w-fit">
