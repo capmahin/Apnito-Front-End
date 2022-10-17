@@ -258,7 +258,7 @@ const Teachers = ({ teachers }) => {
                               </figure>
                               <div className="">
                                 <h2 className="text-2xl pl-5  text-purple-500">
-                                  Booking a time Slut
+                                  Booking a time Slot
                                 </h2>
                                 <p className=" pl-5 py-2 font-semibold">
                                   Morning
