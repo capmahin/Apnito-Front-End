@@ -5,7 +5,7 @@ const Review = () => {
   return (
     <div className="">
       <input type="checkbox" id="review-modal" className="modal-toggle" />
-      <div className="modal modal-bottom sm:modal-middle">
+      <div className="modal modal-bottom sm:modal-middle w-full grid justify-end">
         <div className="modal-box">
           <label
             for="review-modal"

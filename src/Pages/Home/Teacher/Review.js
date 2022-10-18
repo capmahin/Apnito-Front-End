@@ -3,10 +3,10 @@ import { FaThumbsUp, FaThumbsDown, FaFlag } from "react-icons/fa";
 
 const Review = () => {
   return (
-    <div className="">
-      <input type="checkbox" id="review-modal" className="modal-toggle" />
-      <div className="modal modal-bottom sm:modal-middle">
-        <div className="modal-box">
+    <div className="  ">
+      <input type="checkbox" id="review-modal" className="modal-toggle w-max" />
+      <div className="modal modal-bottom sm:modal-middle w-full grid justify-end">
+        <div className="modal-box ">
           <label
             for="review-modal"
             className="btn btn-sm tbn-circle absolute right-2 top-2"
