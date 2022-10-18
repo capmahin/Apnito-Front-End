@@ -13,10 +13,10 @@ const NavBar = () => {
       </li>
 
       <li>
-        <Link to="/contect">Indian Pop</Link>
+        <Link to="/indianPop">Indian Pop</Link>
       </li>
       <li>
-        <Link to="/Opportunitie">Western Classical</Link>
+        <Link to="/westernClassical">Western Classical</Link>
       </li>
     </>
   );
