@@ -17,7 +17,7 @@ const WesternClassical = () => {
     <div>
       <div className="flex justify-between py-6">
         <div className="">
-          <h3 className="text-primary text-3xl font-bold uppercase text-start pl-52 pr-8">
+          <h3 className="text-primary text-3xl font-bold uppercase text-start pl-64 pr-8">
             Music Teacher
           </h3>
         </div>
