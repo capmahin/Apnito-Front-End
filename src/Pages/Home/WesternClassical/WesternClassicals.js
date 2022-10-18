@@ -94,7 +94,7 @@ const WesternClassicals = ({ teachers }) => {
                 <button className="flex">
                   <label
                     htmlFor="review-modal"
-                    className=" btn  rounded-full btn-sm"
+                    className=" btn btn-secondary text-black rounded-full btn-sm"
                   >
                     Reviews
                   </label>
@@ -205,7 +205,7 @@ const WesternClassicals = ({ teachers }) => {
                           <button className="flex">
                             <label
                               htmlFor="review-modal"
-                              className=" btn  rounded-full btn-sm"
+                              className=" btn btn-secondary text-black rounded-full btn-sm"
                             >
                               Reviews
                             </label>

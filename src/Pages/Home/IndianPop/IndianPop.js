@@ -26,7 +26,7 @@ const IndianPop = () => {
             vocal
           </button>
 
-          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full  ">
+          <button className="btn btn-secondary text-black btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full  ">
             Instrumental
           </button>
         </div>
