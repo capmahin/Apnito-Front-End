@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Ghazals from "./Ghazals";
+
 import MenuItem from "../Teacher/MenuItem";
 import Review from "./Review";
 import WesternClassicals from "./WesternClassicals";
