@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import MenuItem from "./MenuItem";
 import Review from "./Review";
 import Teachers from "./Teachers";
 
@@ -27,6 +27,9 @@ const Teacher = () => {
 
           <button className="btn rounded-full  ">Instrumental</button>
         </div>
+      </div>
+      <div className=" grid justify-items-start">
+        <MenuItem></MenuItem>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 justify-items-center gap-3 pt-6 px-5 py-5 w-fit">
