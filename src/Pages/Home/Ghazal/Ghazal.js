@@ -7,7 +7,7 @@ const Ghazal = () => {
   const [teacher, setTeacher] = useState([]);
 
   useEffect(() => {
-    fetch("teacher.json")
+    fetch("ghazal.json")
       .then((res) => res.json())
       .then((data) => setTeacher(data));
   }, []);
