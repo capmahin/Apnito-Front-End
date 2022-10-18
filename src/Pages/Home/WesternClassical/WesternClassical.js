@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-
+import Ghazals from "./Ghazals";
 import MenuItem from "../Teacher/MenuItem";
-import IndianPops from "./IndianPops";
 import Review from "./Review";
+import WesternClassicals from "./WesternClassicals";
 
-const IndianPop = () => {
+const WesternClassical = () => {
   const [teacher, setTeacher] = useState([]);
 
   useEffect(() => {
@@ -37,7 +37,10 @@ const IndianPop = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 justify-items-center gap-3 pt-6 px-5 py-5 w-fit">
         {teacher.map((teachers) => (
-          <IndianPops key={teacher._id} teachers={teachers}></IndianPops>
+          <WesternClassicals
+            key={teacher._id}
+            teachers={teachers}
+          ></WesternClassicals>
         ))}
       </div>
 
@@ -46,4 +49,4 @@ const IndianPop = () => {
   );
 };
 
-export default IndianPop;
+export default WesternClassical;

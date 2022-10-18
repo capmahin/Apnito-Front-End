@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Ghazal from "./Pages/Home/Ghazal/Ghazal";
 import Pagination from "./Pages/Home/Pagination";
+import IndianPop from "./Pages/Home/IndianPop/IndianPop";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="Ghazal" element={<Ghazal></Ghazal>}></Route>
-        <Route path="indianPop" element={<Ghazal></Ghazal>}></Route>
+        <Route path="indianPop" element={<IndianPop></IndianPop>}></Route>
         <Route path="westernClassical" element={<Ghazal></Ghazal>}></Route>
       </Routes>
       <Pagination></Pagination>
