@@ -9,7 +9,7 @@ const Ghazals = ({ teachers }) => {
   const [state, setState] = useState(defaultState);
   return (
     <div className="">
-      <div className=" pl-60 w-fit hero shadow ">
+      <div className=" pl-60 w-fit hero border-dashed border-b-4 border-base-200 ">
         <div className="hero-content flex-col lg:flex-row">
           {/*  */}
           {!state.showMore && (

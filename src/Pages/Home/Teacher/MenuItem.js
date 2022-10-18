@@ -21,7 +21,7 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="navbar grid justify-items-start pl-64 border-solid border-b-4 border-purple-500 bg-base-100">
+    <div className="navbar grid justify-items-start pl-64 border-solid border-b-2 border-primary bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

@@ -30,7 +30,7 @@ const Teacher = () => {
           </button>
         </div>
       </div>
-      <div className=" border-solid border-b-1 border-purple-500">
+      <div className=" border-solid border-b-1 border-primary">
         <MenuItem></MenuItem>
       </div>
 
