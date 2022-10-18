@@ -9,8 +9,8 @@ const Teachers = ({ teachers }) => {
   const [state, setState] = useState(defaultState);
   return (
     <div className="">
-      <div className=" pl-60 w-fit hero shadow ">
-        <div className="hero-content flex-col lg:flex-row">
+      <div className=" pl-60 w-fit hero gird border-dashed border-b-4 border-base-200 ">
+        <div className="hero-content flex-col lg:flex-row ">
           {/*  */}
           {!state.showMore && (
             <>
@@ -121,7 +121,7 @@ const Teachers = ({ teachers }) => {
               <div className="collapse-content">
                 <div>
                   <div>
-                    <div className="w-fit hero shadow">
+                    <div className="w-fit hero shadow ">
                       {/* upper starts */}
                       <div className="hero-content w-fit flex-col lg:flex-row">
                         <div className="avatar pb-24">
