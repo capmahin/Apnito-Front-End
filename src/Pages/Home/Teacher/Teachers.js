@@ -121,9 +121,9 @@ const Teachers = ({ teachers }) => {
               <div className="collapse-content">
                 <div>
                   <div>
-                    <div className="w-fit hero shadow ">
+                    <div className="w-full hero border-solid border-b-2 border-primary ">
                       {/* upper starts */}
-                      <div className="hero-content w-fit flex-col lg:flex-row">
+                      <div className="hero-content w-fit flex-col lg:flex-row ">
                         <div className="avatar pb-24">
                           <div className="w-24  rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                             <img src={img} />
