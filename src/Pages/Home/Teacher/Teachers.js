@@ -212,9 +212,9 @@ const Teachers = ({ teachers }) => {
                           </button>
                         </div>
                         <div className="pb-20 pl-96 ">
-                          <div className="card card-compact    w-40 h-36 shadow-xl">
+                          <div className="card card-compact    w-96 h-60 shadow-xl">
                             <div className="card-body">
-                              <figure>
+                              <figure className="w-96 h-60">
                                 <ReactPlayer url={video} />
                               </figure>
                             </div>
