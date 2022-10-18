@@ -23,13 +23,13 @@ const IndianPops = ({ teachers }) => {
                 <div className="flex">
                   <h1 className="text-xl font-bold">
                     {name}{" "}
-                    <span className="text-sm text-purple-500 font-semibold">
+                    <span className="text-sm text-primary font-semibold">
                       {post}
                     </span>
                   </h1>
                 </div>
                 <p className="text-sm font-semibold">{experience} experience</p>
-                <p className=" text-sm text-purple-500 font-semibold">
+                <p className=" text-sm text-primary font-semibold">
                   Hourly fees ${fees}
                 </p>
                 <div className="rating rating-sm rating-half pr-6">
@@ -41,53 +41,53 @@ const IndianPops = ({ teachers }) => {
                   <input
                     type="radio"
                     name="rating-10"
-                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                    className="bg-primary mask mask-star-2 mask-half-1"
                   />
                   <input
                     type="radio"
                     name="rating-10"
-                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                    className="bg-primary mask mask-star-2 mask-half-2"
                   />
                   <input
                     type="radio"
                     name="rating-10"
-                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                    className="bg-primary mask mask-star-2 mask-half-1"
                     checked
                   />
                   <input
                     type="radio"
                     name="rating-10"
-                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                    className="bg-primary mask mask-star-2 mask-half-2"
                   />
                   <input
                     type="radio"
                     name="rating-10"
-                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                    className="bg-primary mask mask-star-2 mask-half-1"
                   />
                   <input
                     type="radio"
                     name="rating-10"
-                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                    className="bg-primary mask mask-star-2 mask-half-2"
                   />
                   <input
                     type="radio"
                     name="rating-10"
-                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                    className="bg-primary mask mask-star-2 mask-half-1"
                   />
                   <input
                     type="radio"
                     name="rating-10"
-                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                    className="bg-primary mask mask-star-2 mask-half-2"
                   />
                   <input
                     type="radio"
                     name="rating-10"
-                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                    className="bg-primary mask mask-star-2 mask-half-1"
                   />
                   <input
                     type="radio"
                     name="rating-10"
-                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                    className="bg-primary mask mask-star-2 mask-half-2"
                   />
                   <p className="pl-2 text-sm font-bold">4.5</p>
                 </div>
@@ -132,14 +132,14 @@ const IndianPops = ({ teachers }) => {
                         <div className="pb-20">
                           <h1 className="text-xl font-bold">
                             {name}{" "}
-                            <span className="text-sm text-purple-500 font-semibold">
+                            <span className="text-sm text-primary font-semibold">
                               {post}
                             </span>
                           </h1>
                           <p className="text-sm font-semibold">
                             {experience} experience
                           </p>
-                          <p className=" text-sm text-purple-500 font-semibold">
+                          <p className=" text-sm text-primary font-semibold">
                             Hourly fees ${fees}
                           </p>
                           <div className="rating rating-sm rating-half pr-6">
@@ -151,53 +151,53 @@ const IndianPops = ({ teachers }) => {
                             <input
                               type="radio"
                               name="rating-10"
-                              className="bg-purple-500 mask mask-star-2 mask-half-1"
+                              className="bg-primary mask mask-star-2 mask-half-1"
                             />
                             <input
                               type="radio"
                               name="rating-10"
-                              className="bg-purple-500 mask mask-star-2 mask-half-2"
+                              className="bg-primary mask mask-star-2 mask-half-2"
                             />
                             <input
                               type="radio"
                               name="rating-10"
-                              className="bg-purple-500 mask mask-star-2 mask-half-1"
+                              className="bg-primary mask mask-star-2 mask-half-1"
                               checked
                             />
                             <input
                               type="radio"
                               name="rating-10"
-                              className="bg-purple-500 mask mask-star-2 mask-half-2"
+                              className="bg-primary mask mask-star-2 mask-half-2"
                             />
                             <input
                               type="radio"
                               name="rating-10"
-                              className="bg-purple-500 mask mask-star-2 mask-half-1"
+                              className="bg-primary mask mask-star-2 mask-half-1"
                             />
                             <input
                               type="radio"
                               name="rating-10"
-                              className="bg-purple-500 mask mask-star-2 mask-half-2"
+                              className="bg-primary mask mask-star-2 mask-half-2"
                             />
                             <input
                               type="radio"
                               name="rating-10"
-                              className="bg-purple-500 mask mask-star-2 mask-half-1"
+                              className="bg-primary mask mask-star-2 mask-half-1"
                             />
                             <input
                               type="radio"
                               name="rating-10"
-                              className="bg-purple-500 mask mask-star-2 mask-half-2"
+                              className="bg-primary mask mask-star-2 mask-half-2"
                             />
                             <input
                               type="radio"
                               name="rating-10"
-                              className="bg-purple-500 mask mask-star-2 mask-half-1"
+                              className="bg-primary mask mask-star-2 mask-half-1"
                             />
                             <input
                               type="radio"
                               name="rating-10"
-                              className="bg-purple-500 mask mask-star-2 mask-half-2"
+                              className="bg-primary mask mask-star-2 mask-half-2"
                             />
                             <p className="pl-2 text-sm font-bold">4.5</p>
                           </div>
@@ -257,7 +257,7 @@ const IndianPops = ({ teachers }) => {
                                 </div>
                               </figure>
                               <div className="">
-                                <h2 className="text-2xl pl-5  text-purple-500">
+                                <h2 className="text-2xl pl-5  text-primary">
                                   Booking a time Slot
                                 </h2>
                                 <p className=" pl-5 py-2 font-semibold">
@@ -313,7 +313,7 @@ const IndianPops = ({ teachers }) => {
                           <div>
                             <h1 className="text-2xl font-bold">
                               {name}
-                              <span className="text-sm pl-2 text-purple-500 font-semibold">
+                              <span className="text-sm pl-2 text-primary font-semibold">
                                 {post}
                               </span>
                               <span className="text-sm font-semibold pl-2">
@@ -330,53 +330,53 @@ const IndianPops = ({ teachers }) => {
                                   <input
                                     type="radio"
                                     name="rating-10"
-                                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                                    className="bg-primary mask mask-star-2 mask-half-1"
                                   />
                                   <input
                                     type="radio"
                                     name="rating-10"
-                                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                                    className="bg-primary mask mask-star-2 mask-half-2"
                                   />
                                   <input
                                     type="radio"
                                     name="rating-10"
-                                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                                    className="bg-primary mask mask-star-2 mask-half-1"
                                     checked
                                   />
                                   <input
                                     type="radio"
                                     name="rating-10"
-                                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                                    className="bg-primary mask mask-star-2 mask-half-2"
                                   />
                                   <input
                                     type="radio"
                                     name="rating-10"
-                                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                                    className="bg-primary mask mask-star-2 mask-half-1"
                                   />
                                   <input
                                     type="radio"
                                     name="rating-10"
-                                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                                    className="bg-primary mask mask-star-2 mask-half-2"
                                   />
                                   <input
                                     type="radio"
                                     name="rating-10"
-                                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                                    className="bg-primary mask mask-star-2 mask-half-1"
                                   />
                                   <input
                                     type="radio"
                                     name="rating-10"
-                                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                                    className="bg-primary mask mask-star-2 mask-half-2"
                                   />
                                   <input
                                     type="radio"
                                     name="rating-10"
-                                    className="bg-purple-500 mask mask-star-2 mask-half-1"
+                                    className="bg-primary mask mask-star-2 mask-half-1"
                                   />
                                   <input
                                     type="radio"
                                     name="rating-10"
-                                    className="bg-purple-500 mask mask-star-2 mask-half-2"
+                                    className="bg-primary mask mask-star-2 mask-half-2"
                                   />
                                   <p className="pl-2 text-sm font-bold">4.5</p>
                                 </div>
