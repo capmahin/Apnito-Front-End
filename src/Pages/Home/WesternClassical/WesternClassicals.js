@@ -15,11 +15,11 @@ const WesternClassicals = ({ teachers }) => {
           {!state.showMore && (
             <>
               <div className="avatar pb-12">
-                <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <div className="w-36 h-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                   <img src={img} />
                 </div>
               </div>
-              <div>
+              <div className="pb-12">
                 <div className="flex">
                   <h1 className="text-xl font-bold">
                     {name}{" "}
@@ -124,26 +124,18 @@ const WesternClassicals = ({ teachers }) => {
                     {/* Read more upper section start */}
                     <div className="w-full hero border-solid border-b-2 border-primary ">
                       {/* upper starts */}
-                      <div className="hero-content w-fit flex-col lg:flex-row ">
+                      <div className="hero-content w-96 flex-col lg:flex-row ">
                         <div className="flex pb-20">
                           {/* Avatar Start */}
                           <div className="avatar pb-24 ">
-                            <div className="w-24 h-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                            <div className="w-36 h-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                               <img src={img} />
                             </div>
                           </div>
-                          {/* <div className="flex flex-col items-center justify-center">
-                            <div className="flex space-x-5">
-                              <img
-                                alt=""
-                                className="w-full rounded-full ring-2 ring-offset-4 dark:bg-gray-500 ring-purple-400 ring-offset-gray-800"
-                                src={img}
-                              />
-                            </div>
-                          </div> */}
+
                           {/* Avatar End */}
                           {/* Details Start */}
-                          <div className="pb-20 pl-5">
+                          <div className="pb-20 pl-3">
                             <h1 className="text-xl font-bold">
                               {name}{" "}
                               <span className="text-sm text-primary font-semibold">
