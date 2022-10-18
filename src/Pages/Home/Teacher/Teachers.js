@@ -241,7 +241,7 @@ const Teachers = ({ teachers }) => {
                       <div className="hero  ">
                         <div className="hero-content flex-col lg:flex-row-reverse">
                           <div className="flex pt-5 ">
-                            <div className="pb-64 w-full">
+                            <div className="pb-64 w-full pl-5">
                               <h1 className="text-4xl font-bold">
                                 {name}
                                 <span className="text-sm pl-2 text-primary font-semibold">
@@ -349,7 +349,7 @@ const Teachers = ({ teachers }) => {
                                 </span>
                               </p>
                             </div>
-                            <div className="card w-full  bg-base-100 shadow-xl">
+                            <div className=" w-fit  bg-base-100 shadow-xl">
                               <figure>
                                 <div className="stats bg-primary text-primary-content w-96">
                                   <div className="stat">
