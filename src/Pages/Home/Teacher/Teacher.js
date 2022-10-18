@@ -20,15 +20,17 @@ const Teacher = () => {
             Music Teacher
           </h3>
         </div>
-        <div className="card-actions justify-start pr-12 pl-8">
-          <button className="btn rounded-full btn-primary text-white">
+        <div className="card-actions justify-start pr-12 pl-8 flex space-x-4">
+          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full btn-primary text-white">
             vocal
           </button>
 
-          <button className="btn rounded-full  ">Instrumental</button>
+          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full  ">
+            Instrumental
+          </button>
         </div>
       </div>
-      <div className=" grid justify-items-start">
+      <div className=" border-solid border-b-1 border-purple-500">
         <MenuItem></MenuItem>
       </div>
 
