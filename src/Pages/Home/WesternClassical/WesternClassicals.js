@@ -212,9 +212,9 @@ const WesternClassicals = ({ teachers }) => {
                           </button>
                         </div>
                         <div className="pb-20 pl-96 ">
-                          <div className="card card-compact    w-40 h-36 shadow-xl">
+                          <div className="card card-compact   w-96 h-60 shadow-xl">
                             <div className="card-body">
-                              <figure>
+                              <figure className="w-96 h-60">
                                 <ReactPlayer url={video} />
                               </figure>
                             </div>
@@ -226,8 +226,112 @@ const WesternClassicals = ({ teachers }) => {
                     <div className="">
                       <div className="hero  ">
                         <div className="hero-content flex-col lg:flex-row-reverse">
-                          <div>
-                            <div className="card w-96 bg-base-100 shadow-xl">
+                          <div className="flex pt-5 ">
+                            <div className="pb-60">
+                              <h1 className="text-2xl font-bold">
+                                {name}
+                                <span className="text-sm pl-2 text-primary font-semibold">
+                                  {post}
+                                </span>
+                                <span className="text-sm font-semibold pl-2">
+                                  {" "}
+                                  {experience} experience
+                                </span>
+                                <span>
+                                  <div className="rating rating-sm rating-half pr-6">
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="rating-hidden"
+                                    />
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="bg-primary mask mask-star-2 mask-half-1"
+                                    />
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="bg-primary mask mask-star-2 mask-half-2"
+                                    />
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="bg-primary mask mask-star-2 mask-half-1"
+                                      checked
+                                    />
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="bg-primary mask mask-star-2 mask-half-2"
+                                    />
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="bg-primary mask mask-star-2 mask-half-1"
+                                    />
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="bg-primary mask mask-star-2 mask-half-2"
+                                    />
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="bg-primary mask mask-star-2 mask-half-1"
+                                    />
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="bg-primary mask mask-star-2 mask-half-2"
+                                    />
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="bg-primary mask mask-star-2 mask-half-1"
+                                    />
+                                    <input
+                                      type="radio"
+                                      name="rating-10"
+                                      className="bg-primary mask mask-star-2 mask-half-2"
+                                    />
+                                    <p className="pl-2 text-sm font-bold">
+                                      4.5
+                                    </p>
+                                  </div>
+                                </span>
+                              </h1>
+                              <p className="py-4">
+                                <span className="font-bold">Address</span>:{" "}
+                                {address}
+                              </p>
+                              <p className="pb-2">
+                                <span className="font-bold pr-2">About:</span>
+                                Sonu Nigam is an Indian singer, music director
+                                and actor. He has been described in the media as
+                                one of the most popular and successful playback
+                                singers of Hindi Cinema and Kannada Cinema.
+                              </p>
+                              <p className="pb-2">
+                                Spacial Quality in music:
+                                <span className="font-bold px-2">Vocal</span>
+                              </p>
+                              <p className="pb-2">
+                                No of Student taught:
+                                <span className="font-bold px-2">2500</span>
+                              </p>
+                              <p className="pb-2">
+                                Spacial achiements (if any):
+                                <span className="font-bold px-2">Guitar</span>
+                              </p>
+                              <p className="pb-2">
+                                Chose type of class:
+                                <span className="font-bold px-2">
+                                  (Physical/Online)
+                                </span>
+                              </p>
+                            </div>
+                            <div className="card w-full  bg-base-100 shadow-xl">
                               <figure>
                                 <div className="stats bg-primary text-primary-content w-96">
                                   <div className="stat">
@@ -309,108 +413,6 @@ const WesternClassicals = ({ teachers }) => {
                                 </div>
                               </div>
                             </div>
-                          </div>
-                          <div>
-                            <h1 className="text-2xl font-bold">
-                              {name}
-                              <span className="text-sm pl-2 text-primary font-semibold">
-                                {post}
-                              </span>
-                              <span className="text-sm font-semibold pl-2">
-                                {" "}
-                                {experience} experience
-                              </span>
-                              <span>
-                                <div className="rating rating-sm rating-half pr-6">
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="rating-hidden"
-                                  />
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="bg-primary mask mask-star-2 mask-half-1"
-                                  />
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="bg-primary mask mask-star-2 mask-half-2"
-                                  />
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="bg-primary mask mask-star-2 mask-half-1"
-                                    checked
-                                  />
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="bg-primary mask mask-star-2 mask-half-2"
-                                  />
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="bg-primary mask mask-star-2 mask-half-1"
-                                  />
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="bg-primary mask mask-star-2 mask-half-2"
-                                  />
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="bg-primary mask mask-star-2 mask-half-1"
-                                  />
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="bg-primary mask mask-star-2 mask-half-2"
-                                  />
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="bg-primary mask mask-star-2 mask-half-1"
-                                  />
-                                  <input
-                                    type="radio"
-                                    name="rating-10"
-                                    className="bg-primary mask mask-star-2 mask-half-2"
-                                  />
-                                  <p className="pl-2 text-sm font-bold">4.5</p>
-                                </div>
-                              </span>
-                            </h1>
-                            <p className="py-4">
-                              <span className="font-bold">Address</span>:{" "}
-                              {address}
-                            </p>
-                            <p className="pb-2">
-                              <span className="font-bold pr-2">About:</span>Sonu
-                              Nigam is an Indian singer, music director and
-                              actor. He has been described in the media as one
-                              of the most popular and successful playback
-                              singers of Hindi Cinema and Kannada Cinema.
-                            </p>
-                            <p className="pb-2">
-                              Spacial Quality in music:
-                              <span className="font-bold px-2">Vocal</span>
-                            </p>
-                            <p className="pb-2">
-                              No of Student taught:
-                              <span className="font-bold px-2">2500</span>
-                            </p>
-                            <p className="pb-2">
-                              Spacial achiements (if any):
-                              <span className="font-bold px-2">Guitar</span>
-                            </p>
-                            <p className="pb-2">
-                              Chose type of class:
-                              <span className="font-bold px-2">
-                                (Physical/Online)
-                              </span>
-                            </p>
                           </div>
                         </div>
                       </div>
