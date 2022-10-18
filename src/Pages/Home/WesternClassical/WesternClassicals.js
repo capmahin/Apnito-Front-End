@@ -121,98 +121,115 @@ const WesternClassicals = ({ teachers }) => {
               <div className="collapse-content">
                 <div>
                   <div>
-                    <div className="w-full hero border-solid border-b-2 border-primary">
+                    {/* Read more upper section start */}
+                    <div className="w-full hero border-solid border-b-2 border-primary ">
                       {/* upper starts */}
-                      <div className="hero-content w-fit flex-col lg:flex-row">
-                        <div className="avatar pb-24">
-                          <div className="w-24  rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                            <img src={img} />
+                      <div className="hero-content w-fit flex-col lg:flex-row ">
+                        <div className="flex pb-20">
+                          {/* Avatar Start */}
+                          <div className="avatar pb-24 ">
+                            <div className="w-24 h-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                              <img src={img} />
+                            </div>
                           </div>
-                        </div>
-                        <div className="pb-20">
-                          <h1 className="text-xl font-bold">
-                            {name}{" "}
-                            <span className="text-sm text-primary font-semibold">
-                              {post}
-                            </span>
-                          </h1>
-                          <p className="text-sm font-semibold">
-                            {experience} experience
-                          </p>
-                          <p className=" text-sm text-primary font-semibold">
-                            Hourly fees ${fees}
-                          </p>
-                          <div className="rating rating-sm rating-half pr-6">
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="rating-hidden"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="bg-primary mask mask-star-2 mask-half-1"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="bg-primary mask mask-star-2 mask-half-2"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="bg-primary mask mask-star-2 mask-half-1"
-                              checked
-                            />
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="bg-primary mask mask-star-2 mask-half-2"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="bg-primary mask mask-star-2 mask-half-1"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="bg-primary mask mask-star-2 mask-half-2"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="bg-primary mask mask-star-2 mask-half-1"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="bg-primary mask mask-star-2 mask-half-2"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="bg-primary mask mask-star-2 mask-half-1"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-10"
-                              className="bg-primary mask mask-star-2 mask-half-2"
-                            />
-                            <p className="pl-2 text-sm font-bold">4.5</p>
-                          </div>
+                          {/* <div className="flex flex-col items-center justify-center">
+                            <div className="flex space-x-5">
+                              <img
+                                alt=""
+                                className="w-full rounded-full ring-2 ring-offset-4 dark:bg-gray-500 ring-purple-400 ring-offset-gray-800"
+                                src={img}
+                              />
+                            </div>
+                          </div> */}
+                          {/* Avatar End */}
+                          {/* Details Start */}
+                          <div className="pb-20 pl-5">
+                            <h1 className="text-xl font-bold">
+                              {name}{" "}
+                              <span className="text-sm text-primary font-semibold">
+                                {post}
+                              </span>
+                            </h1>
+                            <p className="text-sm font-semibold">
+                              {experience} experience
+                            </p>
+                            <p className=" text-sm text-primary font-semibold">
+                              Hourly fees ${fees}
+                            </p>
+                            <div className="rating rating-sm rating-half pr-6">
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="rating-hidden"
+                              />
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="bg-primary mask mask-star-2 mask-half-1"
+                              />
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="bg-primary mask mask-star-2 mask-half-2"
+                              />
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="bg-primary mask mask-star-2 mask-half-1"
+                                checked
+                              />
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="bg-primary mask mask-star-2 mask-half-2"
+                              />
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="bg-primary mask mask-star-2 mask-half-1"
+                              />
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="bg-primary mask mask-star-2 mask-half-2"
+                              />
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="bg-primary mask mask-star-2 mask-half-1"
+                              />
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="bg-primary mask mask-star-2 mask-half-2"
+                              />
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="bg-primary mask mask-star-2 mask-half-1"
+                              />
+                              <input
+                                type="radio"
+                                name="rating-10"
+                                className="bg-primary mask mask-star-2 mask-half-2"
+                              />
+                              <p className="pl-2 text-sm font-bold">4.5</p>
+                            </div>
 
-                          <button className="flex">
-                            <label
-                              htmlFor="review-modal"
-                              className=" btn btn-secondary text-black rounded-full btn-sm"
-                            >
-                              Reviews
-                            </label>
-                          </button>
+                            <button className="flex">
+                              <label
+                                htmlFor="review-modal"
+                                className=" btn btn-secondary text-black rounded-full btn-sm"
+                              >
+                                Reviews
+                              </label>
+                            </button>
+                          </div>
+                          {/* Details End */}
                         </div>
+
                         <div className="pb-20 pl-96 ">
-                          <div className="card card-compact   w-96 h-60 shadow-xl">
+                          <div className="card card-compact    w-96 h-60 shadow-xl">
                             <div className="card-body">
                               <figure className="w-96 h-60">
                                 <ReactPlayer url={video} />
@@ -223,6 +240,8 @@ const WesternClassicals = ({ teachers }) => {
                       </div>
                       {/* upper ends */}
                     </div>
+                    {/* Read more upper section End */}
+                    {/* read more down section start */}
                     <div className="">
                       <div className="hero  ">
                         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -417,6 +436,7 @@ const WesternClassicals = ({ teachers }) => {
                         </div>
                       </div>
                     </div>
+                    {/* Read more  down section end*/}
                   </div>
                 </div>
               </div>
