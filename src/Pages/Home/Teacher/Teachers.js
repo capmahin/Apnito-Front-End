@@ -105,7 +105,7 @@ const Teachers = ({ teachers }) => {
 
           {/*  */}
           <div className="px-auto mx-auto">
-            <div className="collapse grid justify-items-end">
+            <div className="collapse grid justify-items-end ">
               <input
                 type="checkbox"
                 onClick={() =>
@@ -115,9 +115,12 @@ const Teachers = ({ teachers }) => {
                   }))
                 }
               />
-              <button className="collapse-title btn btn-outline w-40 btn-primary rounded-full btn-sm py-2">
+
+              <button className="collapse-title btn btn-outline w-40 btn-primary  rounded-full btn-sm py-2">
                 Read {!state.showMore ? "More" : "Less"}
               </button>
+
+              {/* Error on that section */}
               <div className="collapse-content">
                 <div>
                   <div>
@@ -238,8 +241,8 @@ const Teachers = ({ teachers }) => {
                       <div className="hero  ">
                         <div className="hero-content flex-col lg:flex-row-reverse">
                           <div className="flex pt-5 ">
-                            <div className="pb-60">
-                              <h1 className="text-2xl font-bold">
+                            <div className="pb-64 w-full">
+                              <h1 className="text-4xl font-bold">
                                 {name}
                                 <span className="text-sm pl-2 text-primary font-semibold">
                                   {post}
@@ -313,29 +316,33 @@ const Teachers = ({ teachers }) => {
                                 </span>
                               </h1>
                               <p className="py-4">
-                                <span className="font-bold">Address</span>:{" "}
-                                {address}
+                                <span className="font-bold text-xl">
+                                  Address
+                                </span>
+                                : {address}
                               </p>
                               <p className="pb-2">
-                                <span className="font-bold pr-2">About:</span>
+                                <span className="font-bold pr-2 text-xl">
+                                  About:
+                                </span>
                                 Sonu Nigam is an Indian singer, music director
                                 and actor. He has been described in the media as
                                 one of the most popular and successful playback
                                 singers of Hindi Cinema and Kannada Cinema.
                               </p>
-                              <p className="pb-2">
+                              <p className="pb-4">
                                 Spacial Quality in music:
-                                <span className="font-bold px-2">Vocal</span>
+                                <span className="font-bold  px-2">Vocal</span>
                               </p>
-                              <p className="pb-2">
+                              <p className="pb-4">
                                 No of Student taught:
                                 <span className="font-bold px-2">2500</span>
                               </p>
-                              <p className="pb-2">
+                              <p className="pb-4">
                                 Spacial achiements (if any):
                                 <span className="font-bold px-2">Guitar</span>
                               </p>
-                              <p className="pb-2">
+                              <p className="pb-4">
                                 Chose type of class:
                                 <span className="font-bold px-2">
                                   (Physical/Online)
@@ -432,6 +439,7 @@ const Teachers = ({ teachers }) => {
                   </div>
                 </div>
               </div>
+              {/* Error on that section end */}
             </div>
           </div>
         </div>
