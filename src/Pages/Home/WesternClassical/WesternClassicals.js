@@ -105,7 +105,7 @@ const WesternClassicals = ({ teachers }) => {
 
           {/*  */}
           <div className="px-auto mx-auto">
-            <div className="collapse px-auto mx-auto">
+            <div className="collapse grid justify-items-end">
               <input
                 type="checkbox"
                 onClick={() =>
