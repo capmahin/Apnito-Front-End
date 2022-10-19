@@ -5,7 +5,7 @@ const NavBar = () => {
   const menuItem = (
     <>
       <li>
-        <Link to="/">All Classes </Link>
+        <Link to="/profile">All Classes </Link>
       </li>
     </>
   );
