@@ -5,7 +5,7 @@ const Profiles = ({ teachers }) => {
   return (
     <div>
       <div className="w-full grid justify-center">
-        <div className="max-w-lg p-4  dark:bg-gray-900 dark:text-gray-100">
+        <div className="max-w-lg p-4 shadow dark:bg-gray-900 dark:text-gray-100">
           <div className="space-y-4">
             <div className="space-y-2">
               <div className="grid justify-center">
