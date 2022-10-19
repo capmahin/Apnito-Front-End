@@ -14,15 +14,15 @@ const Teacher = () => {
 
   return (
     <div>
-      <div className="flex w-screen  py-6">
-        <div className="w-full">
-          <h3 className="text-primary text-3xl font-bold uppercase text-start pl-64 pr-8">
+      <div className="flex w-full  py-6">
+        <div className="w-full grid justify-end content-center pr-96">
+          <h3 className="text-primary text-3xl font-bold uppercase text-start pl-80 ">
             Music Teacher
           </h3>
         </div>
 
-        <div className=" flex justify-center pr-96 pl-8  w-full space-x-4">
-          <div>
+        <div className=" flex justify-start pl-96 w-full space-x-4">
+          <div className="pl-32">
             <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full btn-primary text-white">
               vocal
             </button>
