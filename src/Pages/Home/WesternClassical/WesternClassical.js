@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import MenuItem from "../Teacher/MenuItem";
 import Review from "../Teacher/Review";
 import WesternClassicals from "./WesternClassicals";
-
+import teacherCss from "../Teacher/Teachers.css";
 const WesternClassical = () => {
   const [teacher, setTeacher] = useState([]);
 
@@ -16,21 +16,21 @@ const WesternClassical = () => {
   return (
     <div>
       <div className="flex w-full  py-6">
-        <div className=" w-screen grid justify-end pl-6 pr-96">
-          <h3 className="text-primary text-3xl font-bold uppercase text-start pl-80 pr-10 ">
-            Music Teacher
+        <div className=" w-screen grid justify-end pl-2 pr-96">
+          <h3 className="">
+            <span className="Music-Teacher">Music Teacher</span>
           </h3>
         </div>
 
         <div className=" flex justify-start pl-96 w-full space-x-4">
-          <div className="">
-            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full btn-primary text-white">
-              vocal
+          <div className="Rectangles ">
+            <button className=" ">
+              <span className="Vocal">Vocal</span>
             </button>
           </div>
-          <div>
-            <button className="btn btn-secondary text-black btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full  ">
-              Instrumental
+          <div className="Rectangless">
+            <button className="  ">
+              <span className="Instrumental">Instrumental</span>
             </button>
           </div>
         </div>

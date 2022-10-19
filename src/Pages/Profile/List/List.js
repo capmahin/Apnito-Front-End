@@ -14,7 +14,7 @@ const List = () => {
 
   return (
     <div className=" ">
-      <div className="w-screen border-solid border-b-1 border-purple-500">
+      <div className=" border-solid border-b-1 border-purple-500">
         <MenuItem></MenuItem>
       </div>
 
