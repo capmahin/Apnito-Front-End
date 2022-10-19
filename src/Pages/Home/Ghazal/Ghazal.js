@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Ghazals from "./Ghazals";
 import MenuItem from "../Teacher/MenuItem";
-import Review from "./Review";
+import Review from "../Teacher/Review";
 
 const Ghazal = () => {
   const [teacher, setTeacher] = useState([]);

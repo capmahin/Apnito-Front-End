@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import MenuItem from "../Teacher/MenuItem";
 import IndianPops from "./IndianPops";
-import Review from "./Review";
+import Review from "../Teacher/Review";
 
 const IndianPop = () => {
   const [teacher, setTeacher] = useState([]);

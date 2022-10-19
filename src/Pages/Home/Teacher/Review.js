@@ -10,7 +10,7 @@ const Review = () => {
         <div className="modal-box ">
           <label
             for="review-modal"
-            className="btn btn-sm tbn-circle absolute right-2 top-2"
+            className="btn btn-secondary btn-sm tbn-circle absolute right-2 top-2"
           >
             X
           </label>
@@ -24,7 +24,7 @@ const Review = () => {
               />
             </div>
             <div className=" pl-2">
-              <button className="btn btn-sm ">Submit</button>
+              <button className="btn btn-secondary btn-sm ">Submit</button>
             </div>
           </div>
           <div className="hero w-fit">
@@ -44,7 +44,9 @@ const Review = () => {
               who works in Hindi films
             </p>
             <div className="pt-2 flex">
-              <button className="btn   rounded-full  btn-sm  ">Reply</button>
+              <button className="btn btn-secondary  rounded-full  btn-sm  ">
+                Reply
+              </button>
               <p className=" pl-2 pt-2">
                 <FaThumbsUp />
               </p>
@@ -74,7 +76,9 @@ const Review = () => {
                 Indian actress and producer who works in Hindi films
               </p>
               <div className="pt-2 flex">
-                <button className="btn   rounded-full  btn-sm  ">Reply</button>
+                <button className="btn btn-secondary  rounded-full  btn-sm  ">
+                  Reply
+                </button>
                 <p className=" pl-2 pt-2">
                   <FaThumbsUp />
                 </p>
@@ -106,7 +110,9 @@ const Review = () => {
               in treating the Covid patuents. a few are busy in scaring people.
             </p>
             <div className="pt-2 flex">
-              <button className="btn   rounded-full  btn-sm  ">Reply</button>
+              <button className="btn btn-secondary  rounded-full  btn-sm  ">
+                Reply
+              </button>
               <p className=" pl-2 pt-2">
                 <FaThumbsUp />
               </p>
@@ -137,7 +143,9 @@ const Review = () => {
               fear our last breath.
             </p>
             <div className="pt-2 flex">
-              <button className="btn   rounded-full  btn-sm  ">Reply</button>
+              <button className="btn btn-secondary  rounded-full  btn-sm  ">
+                Reply
+              </button>
               <p className=" pl-2 pt-2">
                 <FaThumbsUp />
               </p>
@@ -171,7 +179,9 @@ const Review = () => {
               linked Who benefits? Certainly not common man.
             </p>
             <div className="pt-2 flex">
-              <button className="btn   rounded-full  btn-sm  ">Reply</button>
+              <button className="btn btn-secondary  rounded-full  btn-sm  ">
+                Reply
+              </button>
               <p className=" pl-2 pt-2">
                 <FaThumbsUp />
               </p>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import MenuItem from "../Teacher/MenuItem";
-import Review from "./Review";
+import Review from "../Teacher/Review";
 import WesternClassicals from "./WesternClassicals";
 
 const WesternClassical = () => {
