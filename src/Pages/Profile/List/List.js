@@ -7,7 +7,7 @@ const List = () => {
   const [teacher, setTeacher] = useState([]);
 
   useEffect(() => {
-    fetch("teacher.json")
+    fetch("classes.json")
       .then((res) => res.json())
       .then((data) => setTeacher(data));
   }, []);
