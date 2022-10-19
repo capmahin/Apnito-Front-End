@@ -12,7 +12,10 @@ const Profile = () => {
   }, []);
   return (
     <div>
-      <Profiles></Profiles>
+      {profile.slice(0, 1).map((teachers) => (
+        <Profiles key={profile._id} teachers={teachers}></Profiles>
+      ))}
+
       <div>
         <List></List>
         <div className="flex space-x-5"></div>
