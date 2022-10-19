@@ -14,8 +14,8 @@ const Teachers = ({ teachers }) => {
           {/*  */}
           {!state.showMore && (
             <>
-              <div className="flex w-full pr-28">
-                <div className="avatar  pb-12">
+              <div className="flex w-full pr-72">
+                <div className="avatar pr-4 pb-12">
                   <div className="w-36 h-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                     <img src={img} />
                   </div>
