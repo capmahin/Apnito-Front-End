@@ -1,0 +1,20 @@
+.Rectangle {
+  width: 120px;
+  height: 30px;
+  margin: 17px 194px 0 0;
+  padding: 5px 31px 5px 32px;
+  border-radius: 15px;
+  background-color: #ddd;
+}
+.Reviews {
+  width: 57px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 1000;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #191919;
+}

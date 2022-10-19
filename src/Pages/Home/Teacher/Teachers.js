@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
+import TeachersCss from "./Teachers.css";
 
 const Teachers = ({ teachers }) => {
   const { name, img, post, experience, fees, video, address } = teachers;
@@ -94,11 +95,8 @@ const Teachers = ({ teachers }) => {
                     />
                     <p className="pl-2 text-sm font-bold">4.5</p>
                   </div>
-                  <button className="flex">
-                    <label
-                      htmlFor="review-modal"
-                      className=" btn btn-secondary text-black rounded-full btn-sm"
-                    >
+                  <button className="flex Rectangle  ">
+                    <label htmlFor="review-modal" className=" Reviews  ">
                       Reviews
                     </label>
                   </button>
