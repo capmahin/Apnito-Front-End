@@ -16,9 +16,8 @@ const Profile = () => {
         <Profiles key={profile._id} teachers={teachers}></Profiles>
       ))}
 
-      <div>
+      <div className="grid justify-center w-full">
         <List></List>
-        <div className="flex space-x-5"></div>
       </div>
     </div>
   );
