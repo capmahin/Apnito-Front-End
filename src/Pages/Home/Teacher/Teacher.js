@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import MenuItem from "./MenuItem";
 import Review from "./Review";
 import Teachers from "./Teachers";
+import Teacherscss from "./Teachers.css";
 
 const Teacher = () => {
   const [teacher, setTeacher] = useState([]);
@@ -22,9 +23,9 @@ const Teacher = () => {
         </div>
 
         <div className=" flex justify-start pl-96 w-full space-x-4">
-          <div className="">
-            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full btn-primary text-white">
-              vocal
+          <div className="Rectangles ">
+            <button className=" ">
+              <span className="Vocal">Vocal</span>
             </button>
           </div>
           <div>
