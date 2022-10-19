@@ -30,7 +30,9 @@ const Profiles = ({ teachers }) => {
               <p className="dark:text-gray-400 text-xl font-semibold">
                 fees:{fees}
               </p>
-              <p>Experience: {experience}</p>
+              <p className="dark:text-gray-400 text-xl font-semibold">
+                Experience: {experience}
+              </p>
             </div>
           </div>
         </div>
