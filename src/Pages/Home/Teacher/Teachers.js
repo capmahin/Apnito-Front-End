@@ -213,10 +213,10 @@ const Teachers = ({ teachers }) => {
                               <p className="pl-2 text-sm font-bold">4.5</p>
                             </div>
 
-                            <button className="flex">
+                            <button className="flex Rectangle">
                               <label
                                 htmlFor="review-modal"
-                                className=" btn btn-secondary text-black rounded-full btn-sm"
+                                className=" Reviews"
                               >
                                 Reviews
                               </label>
