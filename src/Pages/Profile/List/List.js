@@ -18,7 +18,7 @@ const List = () => {
         <MenuItem></MenuItem>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 justify-items-center gap-3 pt-6 px-5 py-5 w-fit">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 justify-items-center gap-3 pt-6 px-5 py-5 pl-44 w-fit">
         {teacher.map((teachers) => (
           <Lists key={teacher._id} teachers={teachers}></Lists>
         ))}
