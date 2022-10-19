@@ -31,11 +31,47 @@
   height: 20px;
 
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 1000;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #fff;
+}
+
+.Rectangless {
+  width: 160px;
+  height: 30px;
+  margin: 0 0 0 20px;
+  padding: 5px 35px 5px 34px;
+  border-radius: 15px;
+  background-color: #ddd;
+}
+
+.Instrumental {
+  width: 91px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 1000;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #191919;
+}
+
+.Music-Teacher {
+  width: 194px;
+  height: 33px;
+  margin: 0 0 0 8.3px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #691a58;
 }

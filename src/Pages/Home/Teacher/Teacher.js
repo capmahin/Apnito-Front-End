@@ -16,9 +16,9 @@ const Teacher = () => {
   return (
     <div>
       <div className="flex w-full  py-6">
-        <div className=" w-screen grid justify-end pl-6 pr-96">
-          <h3 className="text-primary text-3xl font-bold uppercase text-start pl-80 pr-10 ">
-            Music Teacher
+        <div className=" w-screen grid justify-end pl-2 pr-96">
+          <h3 className="">
+            <span className="Music-Teacher">Music Teacher</span>
           </h3>
         </div>
 
@@ -28,9 +28,9 @@ const Teacher = () => {
               <span className="Vocal">Vocal</span>
             </button>
           </div>
-          <div>
-            <button className="btn btn-secondary text-black btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full  ">
-              Instrumental
+          <div className="Rectangless">
+            <button className="  ">
+              <span className="Instrumental">Instrumental</span>
             </button>
           </div>
         </div>
