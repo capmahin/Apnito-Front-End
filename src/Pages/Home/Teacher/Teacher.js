@@ -14,22 +14,27 @@ const Teacher = () => {
 
   return (
     <div>
-      <div className="flex justify-between py-6">
-        <div className="">
+      <div className="flex w-screen  py-6">
+        <div className="w-full">
           <h3 className="text-primary text-3xl font-bold uppercase text-start pl-64 pr-8">
             Music Teacher
           </h3>
         </div>
-        <div className="card-actions justify-start pr-12 pl-8 flex space-x-4">
-          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full btn-primary text-white">
-            vocal
-          </button>
 
-          <button className="btn btn-secondary text-black btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full  ">
-            Instrumental
-          </button>
+        <div className=" flex justify-center pr-96 pl-8  w-full space-x-4">
+          <div>
+            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full btn-primary text-white">
+              vocal
+            </button>
+          </div>
+          <div>
+            <button className="btn btn-secondary text-black btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full  ">
+              Instrumental
+            </button>
+          </div>
         </div>
       </div>
+
       <div className=" border-solid border-b-1 border-primary">
         <MenuItem></MenuItem>
       </div>
