@@ -5,18 +5,7 @@ const NavBar = () => {
   const menuItem = (
     <>
       <li>
-        <Link to="/">Indian Classical </Link>
-      </li>
-
-      <li>
-        <Link to="/Ghazal">Ghazal</Link>
-      </li>
-
-      <li>
-        <Link to="/indianPop">Indian Pop</Link>
-      </li>
-      <li>
-        <Link to="/westernClassical">Western Classical</Link>
+        <Link to="/">All Classes </Link>
       </li>
     </>
   );
@@ -42,14 +31,16 @@ const NavBar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-primary"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-xl text-primary"
           >
             {menuItem}
           </ul>
         </div>
       </div>
       <div className="navbar-start hidden  lg:flex ">
-        <ul className="menu menu-horizontal p-0 text-primary">{menuItem}</ul>
+        <ul className="menu menu-horizontal p-0 text-xl text-primary">
+          {menuItem}
+        </ul>
       </div>
     </div>
   );
