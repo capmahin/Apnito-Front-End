@@ -9,103 +9,107 @@ const WesternClassicals = ({ teachers }) => {
   const [state, setState] = useState(defaultState);
   return (
     <div className="">
-      <div className=" pl-60 w-fit hero border-dashed border-b-4 border-base-200 ">
-        <div className="hero-content flex-col lg:flex-row">
+      <div className=" pl-60 w-fit hero gird border-dashed border-b-4 border-base-200 ">
+        <div className="hero-content flex-col lg:flex-row ">
           {/*  */}
           {!state.showMore && (
             <>
-              <div className="avatar pb-12">
-                <div className="w-36 h-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                  <img src={img} />
+              <div className="flex w-full pr-72">
+                <div className="avatar pr-4 pb-12">
+                  <div className="w-36 h-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                    <img src={img} />
+                  </div>
                 </div>
-              </div>
-              <div className="pb-12">
-                <div className="flex">
-                  <h1 className="text-xl font-bold">
-                    {name}{" "}
-                    <span className="text-sm text-primary font-semibold">
-                      {post}
-                    </span>
-                  </h1>
+                <div className="pb-12">
+                  <div className="flex">
+                    <h1 className="text-xl font-bold">
+                      {name}{" "}
+                      <span className="text-sm text-primary font-semibold">
+                        {post}
+                      </span>
+                    </h1>
+                  </div>
+                  <p className="text-sm font-semibold">
+                    {experience} experience
+                  </p>
+                  <p className=" text-sm text-primary font-semibold">
+                    Hourly fees ${fees}
+                  </p>
+                  <div className="rating rating-sm rating-half pr-6">
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="rating-hidden"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="bg-primary mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="bg-primary mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="bg-primary mask mask-star-2 mask-half-1"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="bg-primary mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="bg-primary mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="bg-primary mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="bg-primary mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="bg-primary mask mask-star-2 mask-half-2"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="bg-primary mask mask-star-2 mask-half-1"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-10"
+                      className="bg-primary mask mask-star-2 mask-half-2"
+                    />
+                    <p className="pl-2 text-sm font-bold">4.5</p>
+                  </div>
+                  <button className="flex">
+                    <label
+                      htmlFor="review-modal"
+                      className=" btn btn-secondary text-black rounded-full btn-sm"
+                    >
+                      Reviews
+                    </label>
+                  </button>
                 </div>
-                <p className="text-sm font-semibold">{experience} experience</p>
-                <p className=" text-sm text-primary font-semibold">
-                  Hourly fees ${fees}
-                </p>
-                <div className="rating rating-sm rating-half pr-6">
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="rating-hidden"
-                  />
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="bg-primary mask mask-star-2 mask-half-1"
-                  />
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="bg-primary mask mask-star-2 mask-half-2"
-                  />
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="bg-primary mask mask-star-2 mask-half-1"
-                    checked
-                  />
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="bg-primary mask mask-star-2 mask-half-2"
-                  />
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="bg-primary mask mask-star-2 mask-half-1"
-                  />
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="bg-primary mask mask-star-2 mask-half-2"
-                  />
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="bg-primary mask mask-star-2 mask-half-1"
-                  />
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="bg-primary mask mask-star-2 mask-half-2"
-                  />
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="bg-primary mask mask-star-2 mask-half-1"
-                  />
-                  <input
-                    type="radio"
-                    name="rating-10"
-                    className="bg-primary mask mask-star-2 mask-half-2"
-                  />
-                  <p className="pl-2 text-sm font-bold">4.5</p>
-                </div>
-                <button className="flex">
-                  <label
-                    htmlFor="review-modal"
-                    className=" btn btn-secondary text-black rounded-full btn-sm"
-                  >
-                    Reviews
-                  </label>
-                </button>
               </div>
             </>
           )}
 
           {/*  */}
           <div className="px-auto mx-auto">
-            <div className="collapse grid justify-items-end">
+            <div className="collapse grid justify-items-end ">
               <input
                 type="checkbox"
                 onClick={() =>
@@ -115,9 +119,12 @@ const WesternClassicals = ({ teachers }) => {
                   }))
                 }
               />
-              <button className="collapse-title btn btn-outline w-40 btn-primary rounded-full btn-sm py-2">
+
+              <button className="collapse-title btn btn-outline w-40 btn-primary  rounded-full btn-sm py-2">
                 Read {!state.showMore ? "More" : "Less"}
               </button>
+
+              {/* Error on that section */}
               <div className="collapse-content">
                 <div>
                   <div>
@@ -238,8 +245,8 @@ const WesternClassicals = ({ teachers }) => {
                       <div className="hero  ">
                         <div className="hero-content flex-col lg:flex-row-reverse">
                           <div className="flex pt-5 ">
-                            <div className="pb-60 w-full pl-5">
-                              <h1 className="text-2xl font-bold">
+                            <div className="pb-64 w-full pl-5">
+                              <h1 className="text-4xl font-bold">
                                 {name}
                                 <span className="text-sm pl-2 text-primary font-semibold">
                                   {post}
@@ -313,36 +320,40 @@ const WesternClassicals = ({ teachers }) => {
                                 </span>
                               </h1>
                               <p className="py-4">
-                                <span className="font-bold">Address</span>:{" "}
-                                {address}
+                                <span className="font-bold text-xl">
+                                  Address
+                                </span>
+                                : {address}
                               </p>
                               <p className="pb-2">
-                                <span className="font-bold pr-2">About:</span>
+                                <span className="font-bold pr-2 text-xl">
+                                  About:
+                                </span>
                                 Sonu Nigam is an Indian singer, music director
                                 and actor. He has been described in the media as
                                 one of the most popular and successful playback
                                 singers of Hindi Cinema and Kannada Cinema.
                               </p>
-                              <p className="pb-2">
+                              <p className="pb-4">
                                 Spacial Quality in music:
-                                <span className="font-bold px-2">Vocal</span>
+                                <span className="font-bold  px-2">Vocal</span>
                               </p>
-                              <p className="pb-2">
+                              <p className="pb-4">
                                 No of Student taught:
                                 <span className="font-bold px-2">2500</span>
                               </p>
-                              <p className="pb-2">
+                              <p className="pb-4">
                                 Spacial achiements (if any):
                                 <span className="font-bold px-2">Guitar</span>
                               </p>
-                              <p className="pb-2">
+                              <p className="pb-4">
                                 Chose type of class:
                                 <span className="font-bold px-2">
                                   (Physical/Online)
                                 </span>
                               </p>
                             </div>
-                            <div className="w-fit   bg-base-100 shadow-xl">
+                            <div className=" w-fit  bg-base-100 shadow-xl">
                               <figure>
                                 <div className="stats bg-primary text-primary-content w-96">
                                   <div className="stat">
@@ -432,6 +443,7 @@ const WesternClassicals = ({ teachers }) => {
                   </div>
                 </div>
               </div>
+              {/* Error on that section end */}
             </div>
           </div>
         </div>
