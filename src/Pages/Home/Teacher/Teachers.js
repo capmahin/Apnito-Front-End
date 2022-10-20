@@ -359,6 +359,7 @@ const Teachers = ({ teachers }) => {
                               </span>
                               <div>
                                 <span className="span pl-16">1000</span>
+                                <span className="span pl-6">2,500</span>
                               </div>
                             </div>
                             {/* <figure>
