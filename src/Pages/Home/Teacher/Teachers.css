@@ -177,3 +177,96 @@
 .Monthly-12-days .text-style-1 {
   font-size: 15px;
 }
+.Book-a-time-slot {
+  width: 131px;
+  height: 23px;
+  margin: 0 219px 7px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #691a58;
+}
+img.Shape {
+  width: 7.8px;
+  height: 14px;
+  margin: 6px 8.2px 5px 0;
+  object-fit: contain;
+  border: solid 1.5px #fff;
+}
+.Morning {
+  width: 66px;
+  height: 23px;
+  margin: 0 24px 9px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+}
+.Rectangle_box {
+  width: 80px;
+  height: 36px;
+  margin: 9px 10px 14px 0;
+  padding: 8px 9px 8px 10px;
+  border-radius: 4px;
+  border: solid 1px #691a58;
+  background-color: #fff;
+}
+.-AM {
+  width: 61px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #191919;
+}
+.Afternoon {
+  width: 79px;
+  height: 23px;
+  margin: 0 11px 9px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+}
+.Evening {
+  width: 63px;
+  height: 23px;
+  margin: 0 27px 9px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+}
+.-PM {
+  width: 64px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #191919;
+}

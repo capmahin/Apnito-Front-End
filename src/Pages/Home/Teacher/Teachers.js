@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import TeachersCss from "./Teachers.css";
+// import img from "../../../../public/assets/Shape/shape.png";
 
 const Teachers = ({ teachers }) => {
   const { name, img, post, experience, fees, video, address } = teachers;
@@ -367,6 +368,40 @@ const Teachers = ({ teachers }) => {
                                 <span className="span pl-14">10,500</span>
                               </div>
                             </div>
+                            <span class="Book-a-time-slot px-5">
+                              Book a time slot
+                            </span>
+                            <div>
+                              <span class="Morning px-5">Morning</span>
+                            </div>
+                            <div className="px-5">
+                              <div class="Rectangle_box ">
+                                <span class="-AM py-2">10:00 AM</span>
+                              </div>
+                              <div>
+                                <span class="Afternoon">Afternoon</span>
+                              </div>
+                              <div class="Rectangle_box ">
+                                <span class="-AM py-2">10:00 AM</span>
+                              </div>
+                              <div>
+                                <span class="Evening">Evening</span>
+                              </div>
+                              <div className="flex">
+                                <div class="Rectangle_box ">
+                                  <span class="-PM py-2">05:00 PM</span>
+                                </div>{" "}
+                                <div class="Rectangle_box ">
+                                  <span class="-PM py-2">06:30 PM</span>
+                                </div>{" "}
+                                <div class="Rectangle_box ">
+                                  <span class="-AM py-2">10:00 AM</span>
+                                </div>{" "}
+                                <div class="Rectangle_box ">
+                                  <span class="-AM py-2">10:00 AM</span>
+                                </div>
+                              </div>
+                            </div>
                             {/* <figure>
                               <div className="stats bg-primary text-primary-content w-96">
                                 <div className="stat">
@@ -395,7 +430,7 @@ const Teachers = ({ teachers }) => {
                                 </div>
                               </div>
                             </figure> */}
-                            <div className="">
+                            {/* <div className="">
                               <h2 className="text-2xl pl-5  text-primary">
                                 Booking a time Slot
                               </h2>
@@ -446,7 +481,7 @@ const Teachers = ({ teachers }) => {
                                   Book Now
                                 </button>
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </div>
