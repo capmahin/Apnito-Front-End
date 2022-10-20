@@ -375,8 +375,19 @@ const Teachers = ({ teachers }) => {
                               <span class="Morning px-5">Morning</span>
                             </div>
                             <div className="px-5">
-                              <div class="Rectangle_box ">
-                                <span class="-AM py-2">10:00 AM</span>
+                              <div className="flex">
+                                <div class="Rectangle_box ">
+                                  <span class="-AM py-2">10:00 AM</span>
+                                </div>{" "}
+                                <div class="Rectangle_box ">
+                                  <span class="-AM py-2">10:30 AM</span>
+                                </div>{" "}
+                                <div class="Rectangle_box ">
+                                  <span class="-AM py-2">11:00 AM</span>
+                                </div>{" "}
+                                <div class="Rectangle_box ">
+                                  <span class="-AM py-2">11:30 AM</span>
+                                </div>
                               </div>
                               <div>
                                 <span class="Afternoon">Afternoon</span>
