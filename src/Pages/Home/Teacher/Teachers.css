@@ -160,3 +160,20 @@
 .Weekly-3-days .text-style-1 {
   font-size: 15px;
 }
+
+.Monthly-12-days {
+  width: 108px;
+  height: 17px;
+  margin: 0 0 22px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+.Monthly-12-days .text-style-1 {
+  font-size: 15px;
+}

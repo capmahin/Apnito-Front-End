@@ -357,6 +357,10 @@ const Teachers = ({ teachers }) => {
                               <span class="Weekly-3-days ">
                                 <span class="text-style-1">Weekly</span>(3 days)
                               </span>
+                              <span class="Monthly-12-days px-4">
+                                <span class="text-style-1">Monthly</span>(12
+                                days)
+                              </span>
                               <div>
                                 <span className="span pl-16">1000</span>
                                 <span className="span pl-6">2,500</span>
