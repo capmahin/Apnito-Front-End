@@ -381,8 +381,19 @@ const Teachers = ({ teachers }) => {
                               <div>
                                 <span class="Afternoon">Afternoon</span>
                               </div>
-                              <div class="Rectangle_box ">
-                                <span class="-AM py-2">10:00 AM</span>
+                              <div className="flex">
+                                <div class="Rectangle_box ">
+                                  <span class="-PM py-2">12:00 PM</span>
+                                </div>{" "}
+                                <div class="Rectangle_box ">
+                                  <span class="-PM py-2">01:30 PM</span>
+                                </div>{" "}
+                                <div class="Rectangle_box ">
+                                  <span class="-PM py-2">03:00 PM</span>
+                                </div>{" "}
+                                <div class="Rectangle_box ">
+                                  <span class="-PM py-2">04:00 PM</span>
+                                </div>
                               </div>
                               <div>
                                 <span class="Evening">Evening</span>
@@ -395,10 +406,10 @@ const Teachers = ({ teachers }) => {
                                   <span class="-PM py-2">06:30 PM</span>
                                 </div>{" "}
                                 <div class="Rectangle_box ">
-                                  <span class="-AM py-2">10:00 AM</span>
+                                  <span class="-PM py-2">08:00 PM</span>
                                 </div>{" "}
                                 <div class="Rectangle_box ">
-                                  <span class="-AM py-2">10:00 AM</span>
+                                  <span class="-PM py-2">08:30 PM</span>
                                 </div>
                               </div>
                             </div>
