@@ -248,7 +248,7 @@ const Teachers = ({ teachers }) => {
                       <div className=" flex-col lg:flex-row-reverse">
                         <div className="flex pt-2 ">
                           <div className="pb-60  w-full pl-14">
-                            <div className="pt-5">
+                            <div className="pt-5 ">
                               <h1 className="text-4xl font-bold">
                                 {name}
                                 <span className="text-sm pl-2 text-primary font-semibold">
@@ -430,6 +430,13 @@ const Teachers = ({ teachers }) => {
                                   <div class="Rectangle_box ">
                                     <span class="-PM py-2">08:30 PM</span>
                                   </div>
+                                </div>
+                              </div>
+                              <div className="pl-24">
+                                <div class="Rectangle_button ">
+                                  <button>
+                                    <span class="BOOK-NOW">BOOK NOW</span>
+                                  </button>
                                 </div>
                               </div>
                               {/* <figure>

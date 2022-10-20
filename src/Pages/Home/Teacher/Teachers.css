@@ -270,3 +270,24 @@ img.Shape {
   text-align: center;
   color: #191919;
 }
+
+.Rectangle_button {
+  width: 130px;
+  height: 36px;
+  margin: 10px 25px 0 35px;
+  padding: 8px 25px 8px 26px;
+  border-radius: 4px;
+  background-color: #691a58;
+}
+.BOOK-NOW {
+  width: 79px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
