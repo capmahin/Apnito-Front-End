@@ -248,12 +248,12 @@ const IndianPops = ({ teachers }) => {
                         <div className="flex pt-2 ">
                           <div className="pb-60  w-full pl-14">
                             <div className="pt-5 ">
-                              <h1 className="text-4xl font-bold">
+                              <h1 className="text-5xl font-bold">
                                 {name}
-                                <span className="text-sm pl-2 text-primary font-semibold">
+                                <span className="text-2xl pl-2 text-primary font-semibold">
                                   {post}
                                 </span>
-                                <span className="text-sm font-semibold pl-2">
+                                <span className="text-xl font-semibold pl-2">
                                   {" "}
                                   {experience} experience
                                 </span>
@@ -321,14 +321,14 @@ const IndianPops = ({ teachers }) => {
                                   </div>
                                 </span>
                               </h1>
-                              <p className="py-4">
-                                <span className="font-bold text-xl">
+                              <p className="py-6 ">
+                                <span className="font-bold text-2xl">
                                   Address
                                 </span>
                                 : {address}
                               </p>
-                              <p className="pb-2">
-                                <span className="font-bold pr-2 text-xl">
+                              <p className="py-4">
+                                <span className="font-bold pr-2 text-2xl">
                                   About:
                                 </span>
                                 Sonu Nigam is an Indian singer, music director
@@ -336,21 +336,27 @@ const IndianPops = ({ teachers }) => {
                                 one of the most popular and successful playback
                                 singers of Hindi Cinema and Kannada Cinema.
                               </p>
-                              <p className="pb-4">
+                              <p className="pb-5">
                                 Spacial Quality in music:
-                                <span className="font-bold  px-2">Vocal</span>
+                                <span className="font-bold text-xl px-2">
+                                  Vocal
+                                </span>
                               </p>
-                              <p className="pb-4">
+                              <p className="pb-5">
                                 No of Student taught:
-                                <span className="font-bold px-2">2500</span>
+                                <span className="font-bold text-xl px-2">
+                                  2500
+                                </span>
                               </p>
-                              <p className="pb-4">
+                              <p className="pb-5">
                                 Spacial achiements (if any):
-                                <span className="font-bold px-2">Guitar</span>
+                                <span className="font-bold text-xl px-2">
+                                  Guitar
+                                </span>
                               </p>
-                              <p className="pb-4">
+                              <p className="pb-5">
                                 Chose type of class:
-                                <span className="font-bold px-2">
+                                <span className="font-bold text-xl px-2">
                                   (Physical/Online)
                                 </span>
                               </p>
@@ -439,85 +445,85 @@ const IndianPops = ({ teachers }) => {
                                 </div>
                               </div>
                               {/* <figure>
-                              <div className="stats bg-primary text-primary-content w-96">
-                                <div className="stat">
-                                  <div className="stat-title pb-8">
-                                    <p className="text-center text-xl text-white">
-                                      $ Fees :
-                                    </p>
-                                  </div>
+                            <div className="stats bg-primary text-primary-content w-96">
+                              <div className="stat">
+                                <div className="stat-title pb-8">
+                                  <p className="text-center text-xl text-white">
+                                    $ Fees :
+                                  </p>
                                 </div>
+                              </div>
 
-                                <div className="stat">
-                                  <div className="stat-title  text-white">
-                                    Monthly
-                                  </div>
-                                  <div className="stat-title text-2xl  text-white">
-                                    $89,400
-                                  </div>
+                              <div className="stat">
+                                <div className="stat-title  text-white">
+                                  Monthly
                                 </div>
-                                <div className="stat">
-                                  <div className="stat-title  text-white">
-                                    Monthly
-                                  </div>
-                                  <div className="stat-title text-2xl  text-white">
-                                    $89,400
-                                  </div>
+                                <div className="stat-title text-2xl  text-white">
+                                  $89,400
                                 </div>
                               </div>
-                            </figure> */}
+                              <div className="stat">
+                                <div className="stat-title  text-white">
+                                  Monthly
+                                </div>
+                                <div className="stat-title text-2xl  text-white">
+                                  $89,400
+                                </div>
+                              </div>
+                            </div>
+                          </figure> */}
                               {/* <div className="">
-                              <h2 className="text-2xl pl-5  text-primary">
-                                Booking a time Slot
-                              </h2>
-                              <p className=" pl-5 py-2 font-semibold">
-                                Morning
-                              </p>
-                              <div className="card-actions justify-start pt-4 pl-8">
-                                <button className="btn btn-outline btn-primary">
-                                  10.00 AM
-                                </button>
-                                <button className="btn btn-outline btn-primary">
-                                  10.30 AM
-                                </button>
-                                <button className="btn btn-outline btn-primary">
-                                  11.00 AM
-                                </button>
-                              </div>
-                              <p className=" pl-5 py-2 font-semibold">
-                                Afternoon
-                              </p>
-                              <div className="card-actions justify-start pt-4 pl-8">
-                                <button className="btn btn-outline btn-primary">
-                                  12.00 PM
-                                </button>
-                                <button className="btn btn-outline btn-primary">
-                                  1.30 PM
-                                </button>
-                                <button className="btn btn-outline btn-primary">
-                                  2.00 PM
-                                </button>
-                              </div>
-                              <p className=" pl-5 py-2 font-semibold">
-                                Evening
-                              </p>
-                              <div className="card-actions justify-start pt-4 pl-8">
-                                <button className="btn btn-outline btn-primary">
-                                  5.00 PM
-                                </button>
-                                <button className="btn btn-outline btn-primary">
-                                  6.00 PM
-                                </button>
-                                <button className="btn btn-outline btn-primary">
-                                  6.30 PM
-                                </button>
-                              </div>
-                              <div className="card-actions justify-center pt-4 pb-4 ">
-                                <button className="btn btn-wide btn-primary">
-                                  Book Now
-                                </button>
-                              </div>
-                            </div> */}
+                            <h2 className="text-2xl pl-5  text-primary">
+                              Booking a time Slot
+                            </h2>
+                            <p className=" pl-5 py-2 font-semibold">
+                              Morning
+                            </p>
+                            <div className="card-actions justify-start pt-4 pl-8">
+                              <button className="btn btn-outline btn-primary">
+                                10.00 AM
+                              </button>
+                              <button className="btn btn-outline btn-primary">
+                                10.30 AM
+                              </button>
+                              <button className="btn btn-outline btn-primary">
+                                11.00 AM
+                              </button>
+                            </div>
+                            <p className=" pl-5 py-2 font-semibold">
+                              Afternoon
+                            </p>
+                            <div className="card-actions justify-start pt-4 pl-8">
+                              <button className="btn btn-outline btn-primary">
+                                12.00 PM
+                              </button>
+                              <button className="btn btn-outline btn-primary">
+                                1.30 PM
+                              </button>
+                              <button className="btn btn-outline btn-primary">
+                                2.00 PM
+                              </button>
+                            </div>
+                            <p className=" pl-5 py-2 font-semibold">
+                              Evening
+                            </p>
+                            <div className="card-actions justify-start pt-4 pl-8">
+                              <button className="btn btn-outline btn-primary">
+                                5.00 PM
+                              </button>
+                              <button className="btn btn-outline btn-primary">
+                                6.00 PM
+                              </button>
+                              <button className="btn btn-outline btn-primary">
+                                6.30 PM
+                              </button>
+                            </div>
+                            <div className="card-actions justify-center pt-4 pb-4 ">
+                              <button className="btn btn-wide btn-primary">
+                                Book Now
+                              </button>
+                            </div>
+                          </div> */}
                             </div>
                           </div>
                         </div>
