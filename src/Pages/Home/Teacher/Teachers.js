@@ -353,6 +353,13 @@ const Teachers = ({ teachers }) => {
                           <div className="  Rectangle_Slot  ">
                             <div className="Rectangle_upper">
                               <span className="Fees"> Fees:</span>
+                              <span class="Hourly px-4 pt-5">Hourly</span>
+                              <span class="Weekly-3-days ">
+                                <span class="text-style-1">Weekly</span>(3 days)
+                              </span>
+                              <div>
+                                <span className="span pl-16">1000</span>
+                              </div>
                             </div>
                             {/* <figure>
                               <div className="stats bg-primary text-primary-content w-96">
