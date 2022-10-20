@@ -351,7 +351,9 @@ const Teachers = ({ teachers }) => {
                             </p>
                           </div>
                           <div className="  Rectangle_Slot  ">
-                            <div className="Rectangle_upper"></div>
+                            <div className="Rectangle_upper">
+                              <span className="Fees"> Fees:</span>
+                            </div>
                             {/* <figure>
                               <div className="stats bg-primary text-primary-content w-96">
                                 <div className="stat">

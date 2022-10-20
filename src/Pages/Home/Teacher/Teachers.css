@@ -103,3 +103,17 @@
   border-radius: 4px;
   background-color: #691a58;
 }
+
+.Fees {
+  width: 46px;
+  height: 25px;
+  margin: 0 0 0 8.2px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
