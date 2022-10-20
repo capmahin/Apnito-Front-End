@@ -291,3 +291,10 @@ img.Shape {
   letter-spacing: normal;
   color: #fff;
 }
+.Oval-2 {
+  width: 30px;
+  height: 30px;
+  margin: 0 9px 0 0;
+  padding: 7px 7px 8px 7px;
+  background-color: #691a58;
+}
