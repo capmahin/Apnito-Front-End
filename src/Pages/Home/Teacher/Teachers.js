@@ -243,10 +243,10 @@ const Teachers = ({ teachers }) => {
                   {/* Read more upper section End */}
                   {/* read more down section start */}
                   <div className="">
-                    <div className="hero  ">
-                      <div className="hero-content flex-col lg:flex-row-reverse">
+                    <div className=" w-fit ">
+                      <div className=" flex-col lg:flex-row-reverse">
                         <div className="flex pt-5 ">
-                          <div className="pb-64 w-full pl-5">
+                          <div className="pb-64 w-full pl-14">
                             <h1 className="text-4xl font-bold">
                               {name}
                               <span className="text-sm pl-2 text-primary font-semibold">
