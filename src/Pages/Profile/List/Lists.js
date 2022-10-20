@@ -6,7 +6,7 @@ const Lists = ({ teachers }) => {
 
   return (
     <div className="">
-      <div className=" pl-60 w-fit hero border-dashed border-b-4 border-base-200 ">
+      <div className=" pl-56 w-fit hero border-dashed border-b-4 border-base-200 ">
         <div className="hero-content flex-col lg:flex-row">
           {/*  */}
 

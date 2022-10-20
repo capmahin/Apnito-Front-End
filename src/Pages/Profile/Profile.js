@@ -17,7 +17,9 @@ const Profile = () => {
       ))}
 
       <div className="grid justify-center w-full">
-        <List></List>
+        <div className="">
+          <List></List>
+        </div>
       </div>
     </div>
   );
