@@ -350,8 +350,9 @@ const Teachers = ({ teachers }) => {
                               </span>
                             </p>
                           </div>
-                          <div className=" w-fit  bg-base-100 shadow-xl">
-                            <figure>
+                          <div className="  Rectangle_Slot  ">
+                            <div className="Rectangle_upper"></div>
+                            {/* <figure>
                               <div className="stats bg-primary text-primary-content w-96">
                                 <div className="stat">
                                   <div className="stat-title pb-8">
@@ -378,7 +379,7 @@ const Teachers = ({ teachers }) => {
                                   </div>
                                 </div>
                               </div>
-                            </figure>
+                            </figure> */}
                             <div className="">
                               <h2 className="text-2xl pl-5  text-primary">
                                 Booking a time Slot
